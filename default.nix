@@ -1,6 +1,4 @@
-{ pkgs ? import <nixpkgs> {} }:
-
-with pkgs;
+{ stdenv, buildGoModule, fetchFromGitHub, mkYarnPackage, nodejs, python, src }:
 
 let
 
